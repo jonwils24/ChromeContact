@@ -1,0 +1,11 @@
+{
+  "name": "Hello World!",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "My first Chrome extension.",
+  "permissions": ["tabs"],
+  "browser_action": {
+    "default_icon": "pic.png",
+    "default_popup": "popup.html"
+  }
+}
