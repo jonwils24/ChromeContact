@@ -1,0 +1,94 @@
+/* Ibrahim Jabbari -- www.ibrahimjabbari.com */
+@import url(http://fonts.googleapis.com/css?family=Arvo:700);
+@import url(http://fonts.googleapis.com/css?family=Seaweed+Script);
+
+body {
+  background-color: #222;
+}
+
+div.container {
+  width: 450px;
+  height: 100%;
+  margin: 5% auto;
+}
+
+ul {
+list-style-type: none;
+}
+
+li {
+  padding: 5px;
+}
+
+.shadow {
+  color: #fff;
+  font-family: Arvo;
+  font-weight: bold;
+  text-shadow:
+    -3px -3px 0 #222,
+    3px -3px 0 #222,
+    -3px 3px 0 #222,
+    3px 3px 0 #222,
+    4px 4px 0 dimgrey,
+    5px 5px 0 dimgrey,
+    6px 6px 0 dimgrey,
+    7px 7px 0 dimgrey;
+  line-height: 0.8em;
+  letter-spacing: 0.1em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  margin:0;
+  padding: 10px;
+  text-align: center;
+}
+
+.no-shadow {
+  color: #fff;
+  font-family: Arvo;
+  font-weight: thin;
+  margin:0;
+  padding: 10px;
+  text-align: center;
+}
+
+div.image img {
+  height: 50px;
+  width: 50px;
+  padding: 1px;
+}
+
+div.image {
+  text-align: center;
+}
+
+.script {
+  font-family: "Seaweed Script";
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  margin:0;
+}
+.script span {
+  background-color: #222;
+  padding: 0 0.3em;
+}
+.script:before {
+  content:"";
+  display: block;
+  position: absolute;
+  z-index:-1;
+  top: 50%;
+  width: 100%;
+  border-bottom: 3px solid #fff;
+}
+.text1 {
+  font-size: 50px;
+}
+.text2 {
+  font-size: 40px;
+}
+.text3 {
+  font-size: 20px;
+}

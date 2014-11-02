@@ -3,7 +3,15 @@
   "version": "1.0",
   "manifest_version": 2,
   "description": "My first Chrome extension.",
-  "permissions": ["tabs"],
+  "permissions": ["tabs", "http://*/*",
+        "https://*/*"],
+  "web_accessible_resources": ["application.css"],
+  "content_scripts": [
+     {
+        "matches":    ["http://www.google.com/*"],
+        "css":        ["application.css"]
+     }
+  ],
   "browser_action": {
     "default_icon": "pic.png",
     "default_popup": "popup.html"
